@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('./custom.woff') format('woff');
+}
+
+
+
+* {
+  font-family: 'Myriad Pro Regular';
+}
+
+.hometitle{
+  background: -webkit-linear-gradient( #83a4d4,#b6fbff);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: -webkit-linear-gradient( rgba(63,94,251,1), rgba(252,70,107,1)); */
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  /* -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
